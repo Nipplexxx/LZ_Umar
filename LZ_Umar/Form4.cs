@@ -59,5 +59,12 @@ namespace LZ_Umar
                 MessageBox.Show("Ошибка: " + ex.Message);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form5 f5 = new Form5();
+            f5.ShowDialog();
+        }
     }
 }

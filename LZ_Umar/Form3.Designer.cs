@@ -142,6 +142,7 @@
             this.Controls.Add(this.radioButtonSinh);
             this.Controls.Add(this.label1);
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Лабораторная работа 3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);

@@ -35,6 +35,7 @@
             this.textBoxB = new System.Windows.Forms.TextBox();
             this.buttonCalculate = new System.Windows.Forms.Button();
             this.listBoxResults = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,12 +97,23 @@
             this.listBoxResults.Size = new System.Drawing.Size(490, 134);
             this.listBoxResults.TabIndex = 12;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(697, 376);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Л\\З 5";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(784, 411);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.listBoxResults);
             this.Controls.Add(this.buttonCalculate);
             this.Controls.Add(this.textBoxB);
@@ -110,6 +122,7 @@
             this.Controls.Add(this.textBoxX0);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Лабораторная работа 4";
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
@@ -126,5 +139,6 @@
         private System.Windows.Forms.TextBox textBoxB;
         private System.Windows.Forms.Button buttonCalculate;
         private System.Windows.Forms.ListBox listBoxResults;
+        private System.Windows.Forms.Button button1;
     }
 }
